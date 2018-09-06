@@ -1,5 +1,5 @@
 # Bash and PHP commands to archive files in folder older than N days
-## Bash command
+## Bash script
 ### Params:
 * `-f` - folder to be archived (required)
 * `-d` - find files older than N days (default 30)
@@ -9,7 +9,7 @@
 ./archive.sh -f /home/john/Downloads -d 10 -a /home/john/backups/friday-backup
 ```
 
-## PHP command
+## PHP script
 ### Installing
 The script is using Symfony's custom Finder componen so we need to install in through composer:
 ```
