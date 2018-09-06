@@ -11,7 +11,7 @@
 
 ## PHP script
 ### Installing
-The script is using Symfony's custom Finder componen so we need to install in through composer:
+The script is using Symfony's Finder component so you need to install it through composer:
 ```
 composer install
 ```
