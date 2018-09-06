@@ -3,7 +3,7 @@
 ### Params:
 * `-f` - folder to be archived (required)
 * `-d` - find files older than N days (default 30)
-* `-a` - name of the newly created archive (default /home directory of the executing user)
+* `-a` - name of the newly created archive (default current executing directory or /home directory when executig through cron)
 ### Example
 ```
 ./archive.sh -f /home/john/Downloads -d 10 -a /home/john/backups/friday-backup
